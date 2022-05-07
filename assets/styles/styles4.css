@@ -1,0 +1,241 @@
+body {
+  font-family: 'IBM Plex Sans',
+    sans-serif;
+}
+
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#insertplayerWinner{
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.gameAndDifficulty {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#normalBtn {
+  width: 254px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-radius: 8px;
+  border: solid 2px;
+  font-weight: 500;
+  margin-top: -16px;
+  margin-left: -2px;
+}
+
+#hardBtn {
+  width: 254px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-radius: 8px;
+  border: solid 2px;
+  font-weight: 500;
+  margin-left: -2px;
+}
+
+.keycss {
+  color: white;
+  background-color: #DDDDDD;
+  border: 2px solid #EEEEEE;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+  padding-bottom: 5px;
+  box-shadow: 3px 3px 8px #474343, -3px -3px 5px #FFF;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+#startBtn {
+  width: 300px;
+  height: 90px;
+  font-family: 'IBM Plex Sans',
+    sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+  background-color: #4E944F;
+  border-color: #4E944F;
+  border-radius: 8px;
+  border: solid 2px;
+  margin-top: -45px;
+  margin-left: -3px;
+}
+
+#resetBtn {
+  width: 110px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 200;
+  color: black;
+  background-color: yellow;
+  border-color: black;
+  border-radius: 8px;
+  border: solid 2px;
+
+}
+
+#positionreset {
+  display: flex;
+  margin-left: 540px;
+  margin-bottom: 5px;
+}
+
+#difficulty {
+  font-size: 40px;
+  font-weight: 500;
+  border-bottom: solid black 4px;
+  line-height: -2.1em;
+  width: 250px;
+}
+
+
+#buttons-position {
+  display: flex;
+  float:right;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-bottom: -60px;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#howtoplay {
+  color: #DDDD;
+  font-size: 176px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+
+.playtitle {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 260px;
+  margin-bottom: 90px;
+}
+
+.players {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.playerOne {
+    display: flex;
+    flex-direction: row;
+}
+
+.playerOneInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.playerTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.playerTwoInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.leftDiv {
+  margin-right: 50px;
+}
+
+.titleplayer{
+  border-bottom: 1px solid black;
+  font-weight: 900;
+  text-align: center;
+  line-height: -2.1em;
+  margin-bottom: 40px;
+}
+
+.press {
+  text-align: center;
+  color: grey;
+  font-weight: 200;
+  margin-bottom: 18px;
+}
+
+#p1up {
+  text-align: center;
+}
+
+#p1down {
+  text-align: center;
+}
+
+#p2up {
+  text-align: center;
+}
+
+#p2down {
+  text-align: center;
+}
+
+footer{
+  margin-top: 50px;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+
+
+
+#startBtn:hover {
+  background-color: green;
+  border: 4px solid #83BD75;
+  transition: 0.7s;
+}
+
+#resetBtn:hover {
+  border: 4px black solid;
+  transition: 0.7s;
+}
+
+#normalBtn:hover {
+  border: 3px solid #4E944F;
+  transition: 0.7s;
+}
+
+#hardBtn:hover {
+  border: 3px solid #4E944F;
+  transition: 0.7s;
+}

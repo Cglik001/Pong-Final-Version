@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/styles4.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="title">
+    <h1>PONG IRONHACK</h1>
+    <h2 id="insertplayerWinner"></h2>
+  </div>
+  <div class="gameAndDifficulty">
+        <div class="game">
+          <div id="game">
+            <canvas id="pongGame" style="background-color: black">
+              <script src="assets/scripts/game4.js"></script>
+          </div>
+          <div id="positionreset">
+            <button id="resetBtn" onclick="resetGame()">RESET</button>
+          </div>
+          <div>
+            <button id="startBtn" onclick="start()">START</button>
+          </div>
+        </div>
+        <div id="buttons-position">
+          <h2 id="difficulty">Difficulty</h2>
+          <button class="btnpostion"  id="normalBtn" onclick="normalGame()">NORMAL</button>
+          <button class="btnpostion" id="hardBtn" onclick="hardGame()">HARD</button>
+        </div>
+  </div>
+  <div class="instructions">
+    <div class="playtitle">
+      <h1 id="howtoplay">How To Play</h1>
+    </div>
+    <div class="players">
+      <div class="PlayerOne">
+        <h1 class="titleplayer">Player One</h1>
+        <h3 class="press">Press</h3>
+        <div class="playerOneInfo">
+          <div class="leftDiv player1elements">
+            <h2 class="keycss leftDiv"><span>W</span></h2>
+            <h3 class="keydescription leftDiv" id="p1up"><span>UP</span></h3>
+          </div>
+          <div class="rightDiv player1elements">
+            <h2 class="keycss rightDiv"><span>S</span></h2>
+            <h3 class="rightDiv keydescription" id="p1down"><span>DOWN</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="PlayerTwo">
+        <h1 class="titleplayer">Player Two</h1>
+        <h3 class="press">Press</h3>
+        <div class="playerTwoInfo">
+          <div class="leftDiv player2elements">
+            <h2 class="keycss leftDiv"><span>I</span></h2>
+            <h3 class="keydescription leftDiv" id="p2up"><span>UP</span></h3>
+          </div>
+          <div class="rightDiv player2elements">
+            <h2 class="keycss rightDiv"><span>K</span></h2>
+            <h3 class="rightDiv keydescription" id="p2down"><span>DOWN</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p><a href="credits.html">Credits</a></p>
+    <p id="sp">Made in <b>São Paulo, Brazil</b></p>
+  </footer>
+
+</body>
+
+</html>

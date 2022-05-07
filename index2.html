@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/styles2.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="full-game" style="display:none">
+    <div class="full-game" id="title">
+      <h1 class="full-game">PONG IRONHACK</h1>
+    </div>
+    <div class="full-game" id="game">
+      <canvas class="full-game" id="pongGame" style="background-color: black">
+      <script class="full-game" src="assets/scripts/game3.js"></script>
+    </div>
+    <div class="full-game" id="buttons-position">
+      <button class="full-game" id="normalBtn" onclick="normalGame()">Normal</button>
+      <button class="full-game" id="hardBtn" onclick="hardGame()">Hard</button>
+    </div>
+  </div>
+  <div>
+
+  </div>
+  <div class="start" id="start">
+    <button class="start" id="startBtn" onclick="start()">Start</button>
+  </div>
+   <div class="game-over" id="game-over">
+     <h1 class="game-over">Game Over</h1>
+    <button class="game-over" id="resetBtn" onclick="start()">Reset</button>
+  </div>
+
+</body>
+
+</html>

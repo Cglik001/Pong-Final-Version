@@ -1,0 +1,65 @@
+body {
+    font-family: 'IBM Plex Sans',
+     sans-serif;
+}
+
+.container {
+ text-align: center;
+}
+
+#title {
+  font-size: 100px;
+  margin-bottom: 80px;
+}
+
+#credits {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+#tutorials {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+#link1 {
+  margin-bottom: 50px;
+}
+
+#instructors {
+  margin-top: 70px;
+  font-size: 52px;
+}
+
+#names {
+  display: flex;
+  justify-content: center;
+  justify-items: space-around;
+  margin-top: -20px;
+}
+#instructorsDiv {
+  display: flex;
+}
+
+#name1 {
+  margin-right: 70px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+#name2 {
+  margin-left: 70px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+#thanks {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 20px;
+
+}
+footer {
+  margin-top: 70px;
+  text-align: center;
+}
